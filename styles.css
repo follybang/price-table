@@ -22,7 +22,7 @@ body {
   align-items: center;
 }
 
-.card {
+.price-card {
   width: 380px;
   height: 770px;
   display: flex;
@@ -31,7 +31,7 @@ body {
   margin-right: 18px;
   flex-shrink: 0;
 }
-.card__title {
+.price-card__title {
   margin: 0;
   margin-top: 33px;
   font-weight: 700;
@@ -39,14 +39,14 @@ body {
   line-height: 43px;
   text-align: center;
 }
-.card__subtitle {
+.price-card__subtitle {
   font-weight: 300;
   font-size: 20px;
   line-height: 24px;
   margin-bottom: 33px;
   text-align: center;
 }
-.card__price-plate {
+.price-card__price {
   width: 380px;
   height: 105px;
   display: flex;
@@ -55,7 +55,7 @@ body {
   align-items: center;
   justify-content: center;
 }
-.card__description {
+.price-card__description {
   margin: 0;
   margin: 40px auto;
   text-align: center;
@@ -63,27 +63,27 @@ body {
   font-weight: 300;
   width: 327px;
 }
-.card__options-list {
+.price-card__options-list {
   margin: 0;
   list-style-type: none;
   padding: 0;
   font-weight: 300;
 }
-.card__list-item {
+.price-card__list-item {
   width: 380px;
   height: 50px;
   line-height: 50px;
 }
-.card__list-item:nth-child(odd) {
+.price-card__list-item:nth-child(odd) {
   background-color: #2a343880;
 }
-.card__list-img {
+.price-card__list-img {
   width: 15px;
   height: 13px;
   display: inline-block;
   margin: 0 22px;
 }
-.card__button {
+.price-card__button {
   width: 154px;
   height: 40px;
   border-radius: 20px;
@@ -92,7 +92,7 @@ body {
   margin: 39px auto 0;
 }
 
-.basic-card__price-plate, .basic-card__button {
+.basic-card__price, .basic-card__button {
   background-color: #5bb189;
 }
 .basic-card__item-img {
@@ -116,7 +116,7 @@ body {
   font-size: 14px;
   line-height: 25px;
 }
-.business-card__price-plate, .business-card__button {
+.business-card__price, .business-card__button {
   background-color: #3a6ba5;
 }
 .business-card__item-img {
@@ -126,7 +126,7 @@ body {
 .webshop-card {
   margin: 0;
 }
-.webshop-card__price-plate, .webshop-card__button {
+.webshop-card__price, .webshop-card__button {
   background-color: #ec632a;
 }
 .webshop-card__item-img {

@@ -24,7 +24,7 @@ body {
   align-items: center;
 }
 
-.card {
+.price-card {
   width: 380px;
   height: 770px;
   display: flex;
@@ -50,7 +50,7 @@ body {
     text-align: center;
   }
 
-  &__price-plate {
+  &__price {
     width: 380px;
     height: 105px;
     display: flex;
@@ -104,7 +104,7 @@ body {
 }
 
 .basic-card {
-  &__price-plate,
+  &__price,
   &__button {
     background-color: $green;
   }
@@ -131,7 +131,7 @@ body {
     line-height: 25px;
   }
 
-  &__price-plate,
+  &__price,
   &__button {
     background-color: $blue;
   }
@@ -142,7 +142,7 @@ body {
 }
 
 .webshop-card {
-  &__price-plate,
+  &__price,
   &__button {
     background-color: $orange;
   }
