@@ -101,6 +101,7 @@
   line-height: 40px;
   text-align: center;
   margin: 39px auto 0;
+  border: none;
 }
 .price-card__button_green {
   background-color: #5bb189;
